@@ -3,7 +3,7 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/nodetest
-hooks:
-  ApplicationStart:
-    - location: /after.sh
-      timeout: 300
+# hooks:
+#   ApplicationStart:
+#     - location: /after.sh
+#       timeout: 300
