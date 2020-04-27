@@ -1,0 +1,3 @@
+- [ec2 + codebuild 手順](https://qiita.com/saka-shin/items/b388f9c2d62a1ffadb8c)
+- [build が失敗してしまった時の対象方(こっちの方が codebuild 周りが色々わかりやすいかも)](https://fukatsu.tech/aws-codedeploy)
+- [codePipeLine を噛ませる](https://qiita.com/c_kurita/items/db47adda99175a2bf38a)
