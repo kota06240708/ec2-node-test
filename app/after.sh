@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo node index.js
+forever stopall
+forever start index.js
