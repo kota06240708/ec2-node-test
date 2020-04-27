@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: ${PRODUCTION_NAME}
+    ports: # ポート接続
+      - 3000:3000
+    tty: true
+    stdin_open: true
+    command: [sh, -c, yarn install && node index.js]
+    volumes: # mount workdir
+      - ./app:/app
