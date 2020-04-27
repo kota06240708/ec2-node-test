@@ -1,4 +1,4 @@
 #!/bin/bash
 
-forever stopall
-forever start index.js
+sudo forever stopall
+sudo forever start index.js
