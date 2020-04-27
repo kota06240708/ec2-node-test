@@ -4,9 +4,9 @@ files:
   - source: /app
     destination: /home/ec2-user/nodetest
 hooks:
-  BeforeInstall:
+  AfterInstall:
     - location: before.sh
       timeout: 300
-  AfterInstall:
+  ApplicationStart:
     - location: after.sh
       timeout: 300
