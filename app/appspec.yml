@@ -6,4 +6,5 @@ files:
 # hooks:
 #   ApplicationStart:
 #     - location: /after.sh
-#       timeout: 300
+#       timeout: 180
+#       runas: root
