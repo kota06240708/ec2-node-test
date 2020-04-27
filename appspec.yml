@@ -5,5 +5,5 @@ files:
     destination: /home/ec2-user/nodetest
 hooks:
   ApplicationStart:
-    - location: /home/ec2-user/nodetest/after.sh
+    - location: /nodetest/after.sh
       timeout: 300
