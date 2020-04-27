@@ -6,11 +6,8 @@ phases:
       - if [ -e /tmp/node_modules.tar ]; then tar xf /tmp/node_modules.tar; fi
       - cd app
       - npm install
-      - npm install forever -g
   post_build:
     commands:
-      - forever stopall
-      - forever start index.js
       - tar cf /tmp/node_modules.tar node_modules
 artifacts:
   files:
