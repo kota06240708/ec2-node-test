@@ -1,3 +1,3 @@
 #!/bin/bash
 
-node index.js
+sudo node index.js
