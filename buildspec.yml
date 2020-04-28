@@ -10,7 +10,6 @@ phases:
       - if [ -e /tmp/node_modules.tar ]; then tar xf /tmp/node_modules.tar; fi
       - cp appspec.yml app/appspec.yml
       - cd app
-      - npm install
   post_build:
     commands:
       - npm run build
