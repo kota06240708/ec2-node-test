@@ -3,13 +3,12 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - if [ -e /tmp/node_modules.tar ]; then tar xf /tmp/node_modules.tar; fi
-      - rm -rf node_modules
+      - sudo rm -rf node_modules
   build:
     commands:
-      - if [ -e /tmp/node_modules.tar ]; then tar xf /tmp/node_modules.tar; fi
       - cp appspec.yml app/appspec.yml
       - cd app
+      - npm install
   post_build:
     commands:
       - npm run build
