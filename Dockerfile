@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN apk update && \
   npm install -g npm \
-  && npm install --global @vue/cli @vue/cli-init \
+  && npm install --global @vue/cli @vue/cli-init create-nuxt-app \
   && rm -rf /var/lib/apt/lists/*
 
 CMD ["/bin/ash"]

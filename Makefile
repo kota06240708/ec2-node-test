@@ -30,8 +30,8 @@ ps-all:
 	docker ps -a
 
 # nodeのコンテナの中に入る
-.PHONY: on-node
-on-node:
+.PHONY: on-app
+on-app:
 	docker exec -i -t web_container /bin/ash
 
 # コンテナ、イメージを削除
