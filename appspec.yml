@@ -7,4 +7,3 @@ hooks:
   ApplicationStart:
     - location: after.sh
       timeout: 180
-      runas: ubuntu
