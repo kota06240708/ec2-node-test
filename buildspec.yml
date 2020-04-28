@@ -6,10 +6,10 @@ phases:
       - cp appspec.yml app/appspec.yml
       - cd app
       - npm install
-      - rm -rf node_modules
   post_build:
     commands:
       - npm run build
+      - rm -rf node_modules
       - npm install
 artifacts:
   files:
