@@ -1,4 +1,3 @@
-PROJECT = docker
 
 # コンテナを起動
 .PHONY: start
@@ -29,11 +28,6 @@ ps:
 .PHONY: ps-all
 ps-all:
 	docker ps -a
-
-# mysqlのコンテナの中に入る
-.PHONY: on-db
-on-db:
-	docker exec -it mysql57 bin/bash
 
 # nodeのコンテナの中に入る
 .PHONY: on-node
