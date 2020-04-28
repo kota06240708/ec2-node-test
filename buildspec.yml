@@ -1,9 +1,6 @@
 version: 0.2
 
 phases:
-  pre_build:
-    commands:
-      - sudo rm -rf node_modules
   build:
     commands:
       - cp appspec.yml app/appspec.yml
