@@ -3,3 +3,5 @@
 - [build が失敗してしまった時の対象方(こっちの方が codebuild 周りが色々わかりやすいかも)](https://fukatsu.tech/aws-codedeploy)
 - [codePipeLine を噛ませる](https://qiita.com/c_kurita/items/db47adda99175a2bf38a)
 - [デーモン化は forever よりも pm2 の方がいい](https://note.com/yiio/n/n00164faddfa1)
+- [Nuxt pm2 を使ってデーモン化](https://public-constructor.com/nuxt-run-app-with-pm2/)
+- [ALB で HTTPS 化](https://dev.classmethod.jp/articles/aws-web-server-https-for-beginner/)

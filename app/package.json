@@ -1,17 +1,17 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My splendiferous Nuxt.js project",
+  "author": "kota",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "nuxt": "^2.0.0"
   },
-  "devDependencies": {
-    "forever": "^2.0.0"
-  }
+  "devDependencies": {}
 }

@@ -9,6 +9,7 @@ phases:
       - npm install
   post_build:
     commands:
+      - npm run build
       - tar cf /tmp/node_modules.tar node_modules
 artifacts:
   files:
