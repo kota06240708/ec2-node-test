@@ -5,8 +5,8 @@ files:
     destination: /home/ec2-user/nodetest
 hooks:
   AfterInstall:
-    - location: before.sh
+    - location: ./before.sh
       timeout: 300
   ApplicationStart:
-    - location: after.sh
+    - location: ./after.sh
       timeout: 300
